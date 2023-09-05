@@ -11,7 +11,7 @@ export const SearchBar = ({ setResults }) => {
     axios
     .get('https://api.spoonacular.com/recipes/complexSearch', {
       params: {
-        apiKey: 'bb071811bc5b4d329b8d3314402d8133',
+        apiKey: 'Your API Key',
         query: input, // Aggiungi il valore di input come parametro di query
         number: 4,
         tags: 'vegetarian,main course'
